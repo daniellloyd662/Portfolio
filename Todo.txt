@@ -1,0 +1,18 @@
+To do:
+    Change color scheme
+    Update job titles (UI Designer, Web Developer, Engineer)
+    Update about me writeup
+    Update photo
+    Update about me
+    Replace award
+    Add grocery list app
+    Remove references to freelancing and replace with contact regarding employment
+    Add auto play video for smith match
+
+
+
+done (uncommitted):
+
+
+
+done:
