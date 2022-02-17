@@ -16,6 +16,7 @@ const Contact = () => {
   const [done, setDone] = useState(false);
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
+
   const handleSubmit = (e) => {
     //   preventDefault prevents page from refreshing on submit
     e.preventDefault();
@@ -35,7 +36,12 @@ const Contact = () => {
           console.log(error.text);
         }
       );
-    console.log("form submitted");
+
+    const formElements = [...e.target.children]; //Returns all html objects within the form
+    //For all html objects within the form, if a placeholder exists then clear the field
+    formElements.forEach((element) => {
+      element.placeholder && (element.value = "");
+    });
   };
   return (
     <div className="c">
@@ -51,12 +57,12 @@ const Contact = () => {
           <div className="c-info">
             <div className="c-info-item"></div>
             <img src={Email} alt="" className="c-icon" />
-            Daniel.lloyd.sc@gmail.com
+            daniel.lloyd.sc@gmail.com
           </div>
           <div className="c-info">
             <div className="c-info-item"></div>
             <img src={Address} alt="" className="c-icon" />
-            Dallas Tx
+            Dallas, TX
           </div>
         </div>
         <div className="c-right">
@@ -91,7 +97,7 @@ const Contact = () => {
               name="message"
             ></textarea>
             <button>Submit</button>
-            {done && "Thank you..."}
+            {done && "Thank you, I will reach out to you soon"}
           </form>
         </div>
       </div>

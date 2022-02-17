@@ -4,11 +4,16 @@ Notes:
 
 To do:
     Change color scheme
-    Add auto play video for smith match (Optional)
-    Add linkedin link
+    Add auto play video for smith match (Optional: Below projects to fill space)
+    Add linkedin and github link
     Add languages/skills (optional)
 
 done (uncommitted):
+
+
+done:   
+    Clear form after email submission and add note 'Thank you. I will reach out to you soon'
+    Fixed typos
     Add grocery list app
     Replace award
     Update about me writeup
@@ -16,9 +21,6 @@ done (uncommitted):
     Update photo
     Update about me
     Update job titles (UI Designer, Web Developer, Engineer)
-
-
-done:    
     Added bottom margin on search-container
     Installed github pages
     Added homepage, deploy and predeploy

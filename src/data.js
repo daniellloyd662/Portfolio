@@ -1,5 +1,5 @@
 import smithmatch from "./img/smithmatch.png";
-import ToDoList from "./img/ToDoList.png";
+import grocerylist from "./img/grocerylist.png";
 export const products = [
   {
     id: 1,
@@ -8,7 +8,7 @@ export const products = [
   },
   {
     id: 2,
-    img: ToDoList,
+    img: grocerylist,
     link: "https://daniellloyd662.github.io/Grocery-List-With-Recipe-API/",
   },
   // {
